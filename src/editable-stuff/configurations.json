@@ -1,54 +1,41 @@
 {
-  "backgroundType": "gradient",
-  "plainBackgroundMode": "daylight",
-  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
-  "FirstName": "Hashir",
-  "MiddleName": "",
-  "LastName": "Shoaib",
-  "devDesc": "| Engineer | Programmer | Web Developer | Photographer | Athlete | Artist ",
-  "icons": [
-    {
-      "id": 0,
-      "image": "fa-github",
-      "url": "https://github.com/hashirshoaeb",
-      "style": "socialicons"
-    },
-    {
-      "id": 1,
-      "image": "fa-facebook",
-      "url": "https://www.facebook.com/hashirshoaeb",
-      "style": "socialicons"
-    },
-    {
-      "id": 2,
-      "image": "fa-instagram",
-      "url": "https://www.instagram.com/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 3,
-      "image": "fa-linkedin",
-      "url": "https://www.linkedin.com/in/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 4,
-      "image": "fa-twitter",
-      "url": "https://www.twitter.com/hashirshoaeb/",
-      "style": "socialicons"
-    }
-  ],
-  "aboutHeading": "About Me",
-  "showInstaProfilePic": true,
-  "instaLink": "https://www.instagram.com/",
-  "instaUsername": "hashirshoaeb",
-  "instaQuerry": "/?__a=1",
-  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
-  "projectHeading": "Recent Projects",
-  "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "hashirshoaeb",
-  "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 4,
-  "showNavigationbar": true,
-  "showBlog": false
+    "backgroundType": "gradient",
+    "plainBackgroundMode": "daylight",
+    "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+    "FirstName": "Fathin",
+    "MiddleName": "",
+    "LastName": "Dosunmu",
+    "devDesc": "| Engineer | Programmer | CyberSecurity Enthusiast | Ethical Hacker ",
+    "icons": [{
+            "id": 0,
+            "image": "fa-github",
+            "url": "https://github.com/Fato07",
+            "style": "socialicons"
+        },
+        {
+            "id": 1,
+            "image": "fa-gitlab",
+            "url": "https://gitlab.com/Fato_07",
+            "style": "socialicons"
+        },
+        {
+            "id": 2,
+            "image": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/fathindos/",
+            "style": "socialicons"
+        }
+    ],
+    "aboutHeading": "About Me",
+    "showInstaProfilePic": false,
+    "instaLink": "https://www.instagram.com/",
+    "instaUsername": "Fathin_d",
+    "instaQuerry": "/?__a=1",
+    "aboutDescription": "I'm Masters Student in Cyber Security who is passionate about anything Programming, Ethical hacking and Technology as a whole. I am Looking for Internships, Part Time roles or full Time roles to enhance and better my SkillSet",
+    "projectHeading": "Recent Projects",
+    "gitHubLink": "https://api.github.com/users/",
+    "gitHubUsername": "Fato07",
+    "gitHubQuerry": "/repos?sort=updated&direction=desc",
+    "projectsLength": 4,
+    "showNavigationbar": true,
+    "showBlog": false
 }
