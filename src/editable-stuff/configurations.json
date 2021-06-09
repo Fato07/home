@@ -5,7 +5,7 @@
     "FirstName": "Fathin",
     "MiddleName": "",
     "LastName": "Dosunmu",
-    "devDesc": "| Engineer | Programmer | CyberSecurity Enthusiast | Ethical Hacker ",
+    "devDesc": "| Programmer | Ethical Hacker ",
     "icons": [{
             "id": 0,
             "image": "fa-github",
@@ -30,12 +30,18 @@
     "instaLink": "https://www.instagram.com/",
     "instaUsername": "Fathin_d",
     "instaQuerry": "/?__a=1",
-    "aboutDescription": "I'm Masters Student in Cyber Security who is passionate about anything Programming, Ethical hacking and Technology as a whole. I am Looking for Internships, Part Time roles or full Time roles to enhance and better my SkillSet",
+    "aboutDescription": "I'm a Masters Student in Cyber Security with 1 year + experience in web development who is passionate about anything Programming, Ethical hacking and Technology as a whole. I am Looking for Internships, Part Time roles or full Time roles to enhance and better my SkillSet",
     "projectHeading": "Recent Projects",
     "gitHubLink": "https://api.github.com/users/",
     "gitHubUsername": "Fato07",
     "gitHubQuerry": "/repos?sort=updated&direction=desc",
     "projectsLength": 4,
     "showNavigationbar": true,
-    "showBlog": false
+    "showBlog": false,
+    "portfolioHeading": "Web Developer Portfolio",
+    "works": [{
+        "id": 0
+    }, {
+        "id": 1
+    }]
 }

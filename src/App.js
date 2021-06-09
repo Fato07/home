@@ -14,6 +14,8 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
+import Portfolio from "./components/home/Portfolio";
+import 'semantic-ui-css/semantic.min.css'
 
 const Home = () => {
   return (
@@ -21,6 +23,7 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Project />
+      <Portfolio />
     </Fragment>
   );
 };
