@@ -97,8 +97,8 @@ const Portfolio = () => {
                       <List.Description>
                         This project was built entirely out of boredom to
                         sharpen my firebase skills. More imporovements would be
-                        made such as recoding coice messages and uploading a
-                        story
+                        made such as recording and sending voice messages, uploading a
+                        story and sending Gifs
                       </List.Description>
                     </List.Content>
                   </List.Item>
