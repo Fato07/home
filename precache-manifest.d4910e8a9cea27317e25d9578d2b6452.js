@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9106cdb54ca55e6e75eaa86d47b0f182",
+    "revision": "2d872d64540de99cc58ed8554d2d50c0",
     "url": "/home/index.html"
   },
   {
-    "revision": "af8473f6e88224287c7c",
+    "revision": "0cf62f38de6cb0de85d9",
     "url": "/home/static/css/2.10a18622.chunk.css"
   },
   {
-    "revision": "4174f85c5ca6740d05eb",
+    "revision": "417769cf0828febfdd05",
     "url": "/home/static/css/main.9fc689ea.chunk.css"
   },
   {
-    "revision": "af8473f6e88224287c7c",
-    "url": "/home/static/js/2.10ad6ff5.chunk.js"
+    "revision": "0cf62f38de6cb0de85d9",
+    "url": "/home/static/js/2.8186bbc4.chunk.js"
   },
   {
     "revision": "c654c36c5d412aed4722c118c1e7f484",
-    "url": "/home/static/js/2.10ad6ff5.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.8186bbc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4174f85c5ca6740d05eb",
-    "url": "/home/static/js/main.fb10f49e.chunk.js"
+    "revision": "417769cf0828febfdd05",
+    "url": "/home/static/js/main.1f48c057.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b28c5f0e3a81fd4234047dc237ddc11d",
     "url": "/home/static/media/Fsecrets.b28c5f0e.png"
+  },
+  {
+    "revision": "e8590d8d73c42f7a5feec6476cbe2323",
+    "url": "/home/static/media/Huawei_Recommendation.e8590d8d.pdf"
   },
   {
     "revision": "b400802e0031e53485093546b3a98ae1",
