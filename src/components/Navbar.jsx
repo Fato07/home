@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Pdf from "../editable-stuff/resume.pdf";
+import reference from "../editable-stuff/Huawei_Recommendation.pdf"
 import { showBlog, FirstName } from "../editable-stuff/configurations.json";
 
 const Navbar = (props) => {
@@ -71,6 +72,16 @@ const Navbar = (props) => {
               rel="noreferrer noopener"
             >
               <b>Resume</b>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link lead"
+              href={reference}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+             Reference
             </a>
           </li>
           <li className="nav-item">
