@@ -72,6 +72,8 @@ const AboutMe = () => {
               </p>
             )}
           </div>
+          <div>
+          </div>
         </div>
       </div>
     </div>

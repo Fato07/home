@@ -92,6 +92,12 @@ const Navbar = (props) => {
               <b>About</b>
             </a>
           </li>
+          <li className="nav-item">
+          
+          {/* <a href="https://tryhackme.com/p/Candidate14">
+                <img src="https://tryhackme-badges.s3.amazonaws.com/Candidate14.png" alt="TryHackMe"/>
+                </a> */}
+          </li>
         </ul>
       </div>
     </nav>
