@@ -1,27 +1,27 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Pdf from "../editable-stuff/resume.pdf";
-import reference from "../editable-stuff/Huawei_Recommendation.pdf"
-import { showBlog, FirstName } from "../editable-stuff/configurations.json";
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import Pdf from '../editable-stuff/resume.pdf'
+import reference from '../editable-stuff/Huawei_Recommendation.pdf'
+import { showBlog, FirstName } from '../editable-stuff/configurations.json'
 
 const Navbar = (props) => {
-  const [isTop, setIsTop] = useState(true);
+  const [isTop, setIsTop] = useState(true)
   useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 200;
+    document.addEventListener('scroll', () => {
+      const istop = window.scrollY < 200
       if (istop !== isTop) {
-        setIsTop(istop);
+        setIsTop(istop)
       }
-    });
-  }, [isTop]);
+    })
+  }, [isTop])
 
   return (
     <nav
       className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+        isTop ? 'bg-transparent' : 'bg-gradient'
       } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <a className="navbar-brand" href={process.env.PUBLIC_URL + '/#home'}>
         {`<${FirstName} />`}
       </a>
       <button
@@ -38,30 +38,12 @@ const Navbar = (props) => {
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          {showBlog && (
-            <li className="nav-item">
-              <Link
-                className="nav-link lead"
-                to={process.env.PUBLIC_URL + "/blog"}
-              >
-                Blog
-              </Link>
-            </li>
-          )}
-          <li className="nav-item">
+        <li className="nav-item">
             <a
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+              href={process.env.PUBLIC_URL + '/#aboutme'}
             >
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#portfolio"}
-            >
-              Portfolio
+              <b>About</b>
             </a>
           </li>
           <li className="nav-item">
@@ -77,31 +59,48 @@ const Navbar = (props) => {
           <li className="nav-item">
             <a
               className="nav-link lead"
-              href={reference}
-              target="_blank"
-              rel="noreferrer noopener"
+              href={process.env.PUBLIC_URL + '/#projects'}
             >
-             Reference
+              Projects
             </a>
           </li>
           <li className="nav-item">
             <a
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              href={process.env.PUBLIC_URL + '/#portfolio'}
             >
-              <b>About</b>
+              Portfolio
             </a>
           </li>
+         
           <li className="nav-item">
-          
-          {/* <a href="https://tryhackme.com/p/Candidate14">
-                <img src="https://tryhackme-badges.s3.amazonaws.com/Candidate14.png" alt="TryHackMe"/>
-                </a> */}
+            <a
+              className="nav-link lead"
+              href={reference}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Reference
+            </a>
           </li>
+         
         </ul>
+        <span >
+          <a
+        
+            className="btn btn-dark btn-lg bgstyleButton"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.buymeacoffee.com/fathin"
+            role="button"
+            aria-label="Buy Me Coffee"
+          >
+            Buy Me Coffee
+          </a>
+        </span>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

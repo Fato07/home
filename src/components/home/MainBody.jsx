@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Typist from 'react-typist'
 import {
   FirstName,
@@ -26,6 +26,10 @@ const MainBody = () => {
     }
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div>
       <div
@@ -34,10 +38,12 @@ const MainBody = () => {
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-1">
-            {FirstName + ' ' + MiddleName + ' ' + LastName}
-          </h1>
-          <Typist className="lead"> {devDesc}</Typist>
+          <Typist className="lead" cursor={{ show: false }}>
+            <h1 className="display-1">
+              Hello, I'm <span style={{color: 'black'}}>{FirstName + ' ' + MiddleName + ' ' + LastName}</span>
+            </h1>
+            <span>{devDesc}</span>
+          </Typist>
           <div>
             <div className="p-5">
               {icons.map((icon) => (
@@ -71,7 +77,7 @@ const MainBody = () => {
           </div>
 
           <a
-            style={{marginTop: "4em"}}
+            style={{ marginTop: '4em' }}
             className="btn btn-outline-light btn-lg"
             href="#aboutme"
             role="button"
