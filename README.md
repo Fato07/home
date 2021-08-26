@@ -17,5 +17,3 @@
 - [x] Option: add or not to add Instagram's display picture.
 - [x] Number of projects to show in website.
 - [x] If the Number of Projects are zero, hide the heading (Recent Projects).
-- [ ] Blogs page.
-- [ ] Make resume optional.

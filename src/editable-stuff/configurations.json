@@ -37,7 +37,6 @@
     "gitHubQuerry": "/repos?sort=updated&direction=desc",
     "projectsLength": 4,
     "showNavigationbar": true,
-    "showBlog": false,
     "portfolioHeading": "Web Developer Portfolio",
     "works": [{
         "id": 0

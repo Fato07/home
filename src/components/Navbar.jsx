@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import Pdf from '../editable-stuff/resume.pdf'
 import reference from '../editable-stuff/Huawei_Recommendation.pdf'
-import { showBlog, FirstName } from '../editable-stuff/configurations.json'
+import { FirstName } from '../editable-stuff/configurations.json'
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true)
@@ -95,7 +94,7 @@ const Navbar = (props) => {
             role="button"
             aria-label="Buy Me Coffee"
           >
-            Buy Me Coffee
+            Buy Me Coffee <span role="img"  aria-label="Emoji">☕😁 </span>
           </a>
         </span>
       </div>
