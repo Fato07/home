@@ -1,30 +1,28 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.a9163d5e.chunk.css",
-    "main.js": "/home/static/js/main.811173c4.chunk.js",
-    "main.js.map": "/home/static/js/main.811173c4.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/css/2.10a18622.chunk.css": "/home/static/css/2.10a18622.chunk.css",
-    "static/js/2.1e8d7596.chunk.js": "/home/static/js/2.1e8d7596.chunk.js",
-    "static/js/2.1e8d7596.chunk.js.map": "/home/static/js/2.1e8d7596.chunk.js.map",
+    "main.css": "/home/static/css/main.36cf1e24.chunk.css",
+    "main.js": "/home/static/js/main.8a70e130.chunk.js",
+    "main.js.map": "/home/static/js/main.8a70e130.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.50f64bec.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.50f64bec.js.map",
+    "static/css/2.28e9655f.chunk.css": "/home/static/css/2.28e9655f.chunk.css",
+    "static/js/2.a2b7ca34.chunk.js": "/home/static/js/2.a2b7ca34.chunk.js",
+    "static/js/2.a2b7ca34.chunk.js.map": "/home/static/js/2.a2b7ca34.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.1f324651d3b51e1e4b789b1daa15e0d2.js": "/home/precache-manifest.1f324651d3b51e1e4b789b1daa15e0d2.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/2.10a18622.chunk.css.map": "/home/static/css/2.10a18622.chunk.css.map",
-    "static/css/main.a9163d5e.chunk.css.map": "/home/static/css/main.a9163d5e.chunk.css.map",
-    "static/js/2.1e8d7596.chunk.js.LICENSE.txt": "/home/static/js/2.1e8d7596.chunk.js.LICENSE.txt",
-    "static/media/Fsecrets.png": "/home/static/media/Fsecrets.b28c5f0e.png",
-    "static/media/Huawei_Recommendation.pdf": "/home/static/media/Huawei_Recommendation.e8590d8d.pdf",
-    "static/media/WhatsApp.png": "/home/static/media/WhatsApp.b400802e.png",
-    "static/media/semantic.min.css": "/home/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/resume.pdf": "/home/static/media/resume.b9beee7b.pdf"
+    "static/css/2.28e9655f.chunk.css.map": "/home/static/css/2.28e9655f.chunk.css.map",
+    "static/css/main.36cf1e24.chunk.css.map": "/home/static/css/main.36cf1e24.chunk.css.map",
+    "static/js/2.a2b7ca34.chunk.js.LICENSE.txt": "/home/static/js/2.a2b7ca34.chunk.js.LICENSE.txt",
+    "static/media/Fsecrets.d8a112e5.png": "/home/static/media/Fsecrets.d8a112e5.png",
+    "static/media/Huawei_Recommendation.d781dbb5.pdf": "/home/static/media/Huawei_Recommendation.d781dbb5.pdf",
+    "static/media/WhatsApp.8a94faf2.png": "/home/static/media/WhatsApp.8a94faf2.png",
+    "static/media/semantic.min.css": "/home/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/resume.4b7c0506.pdf": "/home/static/media/resume.4b7c0506.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c590061.js",
-    "static/css/2.10a18622.chunk.css",
-    "static/js/2.1e8d7596.chunk.js",
-    "static/css/main.a9163d5e.chunk.css",
-    "static/js/main.811173c4.chunk.js"
+    "static/js/runtime-main.50f64bec.js",
+    "static/css/2.28e9655f.chunk.css",
+    "static/js/2.a2b7ca34.chunk.js",
+    "static/css/main.36cf1e24.chunk.css",
+    "static/js/main.8a70e130.chunk.js"
   ]
 }
