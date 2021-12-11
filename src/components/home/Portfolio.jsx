@@ -1,6 +1,6 @@
 import React from 'react'
 import { portfolioHeading } from '../../editable-stuff/configurations.json'
-import { Card, Icon, Image, List } from 'semantic-ui-react'
+import { Card, Image, List } from 'semantic-ui-react'
 import Fscrets from '../../Images/Fsecrets.png'
 import WhatsApp from '../../Images/WhatsApp.png'
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Pdf from '../editable-stuff/resume.pdf'
 import reference from '../editable-stuff/Huawei_Recommendation.pdf'
-import { FirstName } from '../editable-stuff/configurations.json'
+import { FirstName, mediumBlogs } from '../editable-stuff/configurations.json'
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true)
@@ -80,6 +80,17 @@ const Navbar = (props) => {
               rel="noreferrer noopener"
             >
               Reference
+            </a>
+          </li>
+
+          <li className="nav-item">
+            <a
+              className="nav-link lead"
+              href={mediumBlogs}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Blogs
             </a>
           </li>
          

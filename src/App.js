@@ -19,6 +19,7 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
+      {/* <Skills/> */}
       <Project />
       <Portfolio />
     </Fragment>

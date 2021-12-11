@@ -30,7 +30,7 @@
     "instaLink": "https://www.instagram.com/",
     "instaUsername": "Fathin_d",
     "instaQuerry": "/?__a=1",
-    "aboutDescription": "I'm a Masters Student in Cyber Security and coding is the sauce of my life. I'm passionate about anything Programming, Ethical hacking and Technology as a whole. I am Looking for Internships, Part Time roles or full Time roles to enhance and better my SkillSet. Sometimes, when I’m in the flow, I craft applications.",
+    "aboutDescription": "I'm a Masters Student in Cyber Security, full-time software developer and coding is the sauce of my life. I'm passionate about anything Programming, Ethical hacking and Technology as a whole. Sometimes, when I’m in the flow, I craft applications.\nI also play CTF’s and write writeups about The interesting machines on my blog as well as tech, web and security related stuff",
     "projectHeading": "Recent Projects",
     "gitHubLink": "https://api.github.com/users/",
     "gitHubUsername": "Fato07",
@@ -42,5 +42,6 @@
         "id": 0
     }, {
         "id": 1
-    }]
+    }],
+    "mediumBlogs": "https://medium.com/@fathindos.fd"
 }
