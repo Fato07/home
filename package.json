@@ -2,7 +2,7 @@
     "name": "developers-portfolio",
     "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
     "homepage": "https://Fato07.github.io/home",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "private": true,
     "author": {
         "name": "Fathin Dosunmu",
@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@popperjs/core": "^2.1.1",
+        "@semantic-ui-react/css-patch": "^1.0.0",
         "axios": "^0.24.0",
         "bootstrap": "^4.4.1",
         "gh-pages": "^2.2.0",
@@ -34,7 +35,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "custom-deploy": "node pages.js"
+        "custom-deploy": "node pages.js",
+        "postinstall": "semantic-ui-css-patch"
     },
     "eslintConfig": {
         "extends": "react-app"

@@ -1,5 +1,6 @@
+/* eslint-disable no-script-url */
 import React from 'react'
-import { portfolioHeading } from '../../editable-stuff/configurations.json'
+import configuration from '../../editable-stuff/configurations.json'
 import { Card, Image, List } from 'semantic-ui-react'
 import Fscrets from '../../Images/Fsecrets.png'
 import WhatsApp from '../../Images/WhatsApp.png'
@@ -11,7 +12,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
-        <h1 className="display-4 pb-5">{portfolioHeading}</h1>
+        <h1 className="display-4 pb-5">{configuration.portfolioHeading}</h1>
         <Card.Group>
           <Card fluid={true}>
             <Image

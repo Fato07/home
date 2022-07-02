@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import Typist from 'react-typist'
-import {
-  FirstName,
-  LastName,
-  MiddleName,
-  devDesc,
-  icons,
-} from '../../editable-stuff/configurations.json'
+import configuration from '../../editable-stuff/configurations.json'
 
 const MainBody = () => {
   // const [backgroundType, setBackgroundType] = useState(Configs.backgroundType);
   const [hoverstatus, setHoverstatus] = useState(
-    new Array(icons.length).fill('socialicons')
+    new Array(configuration.icons.length).fill('socialicons')
   )
 
   const toggleHover = (data) => {
@@ -29,7 +23,7 @@ const MainBody = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  
+
   return (
     <div>
       <div
@@ -40,13 +34,13 @@ const MainBody = () => {
         <div className="container container-fluid text-center ">
           <Typist className="lead" cursor={{ show: false }}>
             <h1 className="display-1">
-              Hello, I'm <span style={{color: 'black'}}>{FirstName + ' ' + MiddleName + ' ' + LastName}</span>
+              Hello, I'm <span style={{ color: 'black' }}>{configuration.FirstName + ' ' + configuration.MiddleName + ' ' + configuration.LastName}</span>
             </h1>
-            <span>{devDesc}</span>
+            <span>{configuration.devDesc}</span>
           </Typist>
           <div>
             <div className="p-5">
-              {icons.map((icon) => (
+              {configuration.icons.map((icon) => (
                 <a
                   key={icon.id}
                   target="_blank"
@@ -55,9 +49,8 @@ const MainBody = () => {
                   aria-label={`My ${icon.image.split('-')[1]}`}
                 >
                   <i
-                    className={`fab ${icon.image}  fa-3x ${
-                      hoverstatus[icon.id]
-                    }`}
+                    className={`fab ${icon.image}  fa-3x ${hoverstatus[icon.id]
+                      }`}
                     onMouseOver={() => toggleHover({ icon, event: 'enter' })}
                     onMouseOut={() => toggleHover({ icon, event: 'leave' })}
                   />
