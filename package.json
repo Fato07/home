@@ -10,7 +10,7 @@
         "url": "https://github.com/Fato07"
     },
     "dependencies": {
-        "@popperjs/core": "^2.1.1",
+        "@popperjs/core": "^2.11.6",
         "@semantic-ui-react/css-patch": "^1.0.0",
         "axios": "^0.24.0",
         "bootstrap": "^4.6.2",
