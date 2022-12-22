@@ -1,0 +1,22 @@
+.tools-wrap {
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+
+.tools-card {
+ min-width: 168px;
+ max-width: 168px;
+ background: white;
+ border-radius: 16px;
+ height: 72px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+img {
+ max-width: 100%;
+ border-style: none
+}

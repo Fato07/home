@@ -3,8 +3,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
-import 
- configuration from "./editable-stuff/configurations.json";
+import
+configuration from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -12,13 +12,14 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/home/Portfolio";
 import 'semantic-ui-css/semantic.min.css'
+import Skills from './components/home/Skills';
 
 const Home = () => {
   return (
     <Fragment>
       <MainBody />
       <AboutMe />
-      {/* <Skills/> */}
+      <Skills />
       <Project />
       <Portfolio />
     </Fragment>

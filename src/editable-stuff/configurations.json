@@ -5,8 +5,9 @@
     "FirstName": "Fathin",
     "MiddleName": "",
     "LastName": "Dosunmu",
-    "devDesc": "| Programmer | Ethical Hacker ",
-    "icons": [{
+    "devDesc": "| FullStack Developer | Ethical Hacker ",
+    "icons": [
+        {
             "id": 0,
             "image": "fa-github",
             "url": "https://github.com/Fato07",
@@ -26,7 +27,7 @@
         }
     ],
     "aboutHeading": "About Me",
-    "aboutDescription": "I'm a Masters Student in Cyber Security, full-time software developer and coding is the source code of my life. I'm passionate about anything Programming, Ethical hacking and Technology as a whole. Sometimes, when I’m in the flow, I craft applications.\nI also play CTF’s and publish writeups about the interesting machines I have hacked on TryHackMe.com and HackTheBox. Usually about web and security related stuff",
+    "aboutDescription": "I'm a Masters Student in Cyber Security, full-time software developer and coding is the source code of my life. I'm passionate about anything Programming, Ethical hacking and Technology as a whole. I consider myself a fullstack developer but i'm more frontend heavy. Sometimes, when I’m in the flow, I craft applications.\nI also play CTF’s and publish writeups about the interesting machines I have hacked on TryHackMe.com and HackTheBox. Usually about web and security related stuff",
     "projectHeading": "Recent Projects",
     "gitHubLink": "https://api.github.com/users/",
     "gitHubUsername": "Fato07",
@@ -34,10 +35,62 @@
     "projectsLength": 4,
     "showNavigationbar": true,
     "portfolioHeading": "Web Developer Portfolio",
-    "works": [{
-        "id": 0
-    }, {
-        "id": 1
-    }],
-    "mediumBlogs": "https://medium.com/@fathindos.fd"
+    "works": [
+        {
+            "id": 0
+        },
+        {
+            "id": 1
+        }
+    ],
+    "mediumBlogs": "https://medium.com/@fathindos.fd",
+    "frontEndTools": [
+        {
+            "id": 0,
+            "name": "React",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/React_logo_wordmark_1_nRJ9w8zXa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372465318"
+        },
+        {
+            "id": 1,
+            "name": "Bootstrap",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/bootstrap-logo-vector_1_lKmSevzjAA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459658"
+        },
+        {
+            "id": 2,
+            "name": "Saas",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_14_eq49Y9zFid.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459714"
+        },
+        {
+            "id": 3,
+            "name": "Redux",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_15_In1IfW-UO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459618"
+        }
+    ],
+    "backEndTools": [
+        {
+            "id": 0,
+            "name": "Javascript",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_17_SAOqJJleX2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459657"
+        },
+        {
+            "id": 1,
+            "name": "Python",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/Python-Logo_1_9AgXbW_eW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372465605"
+        },
+        {
+            "id": 2,
+            "name": "C#",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_18_gBA79hVXtt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459699"
+        },
+        {
+            "id": 3,
+            "name": "Express",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67_1_FHpbvJt8j.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459534"
+        },
+        {
+            "id": 4,
+            "name": "NodeJs",
+            "url": "https://ik.imagekit.io/geniusee/Web_Dev/80-803529_vector-javascript-node-js-jpg-black-and-white_1_daordaGFZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459477"
+        }
+    ]
 }

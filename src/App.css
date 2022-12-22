@@ -1,6 +1,6 @@
 .bgstyle {
     /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-    background: linear-gradient( 136deg, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1);
+    background: linear-gradient(136deg, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1);
     background-size: 1200% 1200%;
     -webkit-animation: AnimationName 70s ease infinite;
     -moz-animation: AnimationName 70s ease infinite;
@@ -11,7 +11,7 @@
 
 .bgstyleButton {
     /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-    background: linear-gradient( 136deg, #17375c, #15665d, #413802, #32066b, #616963, #ecf0f1);
+    background: linear-gradient(136deg, #17375c, #15665d, #413802, #32066b, #616963, #ecf0f1);
     background-size: 1200% 1200%;
     -webkit-animation: AnimationName 70s ease infinite;
     -moz-animation: AnimationName 70s ease infinite;
@@ -24,9 +24,11 @@
     0% {
         background-position: 0% 7%;
     }
+
     50% {
         background-position: 100% 94%;
     }
+
     100% {
         background-position: 0% 7%;
     }
@@ -36,9 +38,11 @@
     0% {
         background-position: 0% 7%;
     }
+
     50% {
         background-position: 100% 94%;
     }
+
     100% {
         background-position: 0% 7%;
     }
@@ -48,9 +52,11 @@
     0% {
         background-position: 0% 7%;
     }
+
     50% {
         background-position: 100% 94%;
     }
+
     100% {
         background-position: 0% 7%;
     }
@@ -60,9 +66,11 @@
     0% {
         background-position: 0% 7%;
     }
+
     50% {
         background-position: 100% 94%;
     }
+
     100% {
         background-position: 0% 7%;
     }
@@ -115,6 +123,7 @@
     from {
         transform: translateY(0px);
     }
+
     to {
         transform: translateY(-2000px);
     }
