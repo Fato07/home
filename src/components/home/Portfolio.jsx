@@ -1,16 +1,16 @@
 /* eslint-disable no-script-url */
-import React from 'react'
-import configuration from '../../editable-stuff/configurations.json'
-import { Card, Image, List } from 'semantic-ui-react'
-import Fscrets from '../../Images/Fsecrets.png'
-import WhatsApp from '../../Images/WhatsApp.png'
+import React from "react"
+import configuration from "../../editable-stuff/configurations.json"
+import { Card, Image, List } from "semantic-ui-react"
+import Fscrets from "../../Images/Fsecrets.png"
+import WhatsApp from "../../Images/WhatsApp.png"
 
 const Portfolio = () => {
-  const array = ['JavaScript: 95.8%', 'SCSS: 2.9%', 'HTML: 1.3%']
-  const array2 = ['CSS: 53.2%', 'JavaScript: 42.8', '%HTML: 3.8 %']
+  const array = ["JavaScript: 95.8%", "SCSS: 2.9%", "HTML: 1.3%"]
+  const array2 = ["CSS: 53.2%", "JavaScript: 42.8", "%HTML: 3.8 %"]
 
   return (
-    <div id="portfolio" className="jumbotron jumbotron-fluid m-0">
+    <div id="portfolio" className="jumbotron-fluid bg-transparent m-0">
       <div className="container container-fluid p-5">
         <h1 className="display-4 pb-5">{configuration.portfolioHeading}</h1>
         <Card.Group>
@@ -56,10 +56,10 @@ const Portfolio = () => {
             </Card.Content>
             <Card.Content extra>
               <div className="pb-3">
-                Languages:{' '}
+                Languages:{" "}
                 {array.map((language) => (
                   <p key={language} className="badge badge-light card-link">
-                    {language}:{' '}
+                    {language}:{" "}
                   </p>
                 ))}
               </div>
@@ -98,8 +98,8 @@ const Portfolio = () => {
                       <List.Description>
                         This project was built entirely out of boredom to
                         sharpen my firebase skills. More imporovements would be
-                        made such as recording and sending voice messages, uploading a
-                        story and sending Gifs
+                        made such as recording and sending voice messages,
+                        uploading a story and sending Gifs
                       </List.Description>
                     </List.Content>
                   </List.Item>
@@ -108,10 +108,10 @@ const Portfolio = () => {
             </Card.Content>
             <Card.Content extra>
               <div className="pb-3">
-                Languages:{' '}
+                Languages:{" "}
                 {array2.map((language) => (
                   <p key={language} className="badge badge-light card-link">
-                    {language}:{' '}
+                    {language}:{" "}
                   </p>
                 ))}
               </div>

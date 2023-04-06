@@ -14,6 +14,8 @@ import Portfolio from "./components/home/Portfolio";
 import 'semantic-ui-css/semantic.min.css'
 import Skills from './components/home/Skills';
 import LinkedInCallback from './components/LinkedInCallback';
+import JobExperiences from "./components/home/JobExperiences";
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => {
   return (
@@ -21,6 +23,7 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Skills />
+      <JobExperiences />
       <Project />
       <Portfolio />
     </Fragment>
@@ -31,8 +34,8 @@ const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     {configuration.showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
-    <Route path="/linkedin-callback" component={LinkedInCallback} />
     <Footer />
+    <Analytics />
   </BrowserRouter>
 );
 
