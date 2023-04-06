@@ -13,7 +13,6 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/home/Portfolio";
 import 'semantic-ui-css/semantic.min.css'
 import Skills from './components/home/Skills';
-import LinkedInCallback from './components/LinkedInCallback';
 import JobExperiences from "./components/home/JobExperiences";
 import { Analytics } from '@vercel/analytics/react';
 
