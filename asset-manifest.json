@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.fe1cebf5.css",
-    "main.js": "/home/static/js/main.17c89a8c.js",
+    "main.js": "/home/static/js/main.d7d38bed.js",
     "static/media/Huawei_Recommendation.pdf": "/home/static/media/Huawei_Recommendation.d781dbb5d21f15c6be2a.pdf",
     "static/media/brand-icons.svg": "/home/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/Fsecrets.png": "/home/static/media/Fsecrets.d8a112e57663672ce16c.png",
@@ -24,10 +24,10 @@
     "static/media/outline-icons.woff2": "/home/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/home/index.html",
     "main.fe1cebf5.css.map": "/home/static/css/main.fe1cebf5.css.map",
-    "main.17c89a8c.js.map": "/home/static/js/main.17c89a8c.js.map"
+    "main.d7d38bed.js.map": "/home/static/js/main.d7d38bed.js.map"
   },
   "entrypoints": [
     "static/css/main.fe1cebf5.css",
-    "static/js/main.17c89a8c.js"
+    "static/js/main.d7d38bed.js"
   ]
 }
