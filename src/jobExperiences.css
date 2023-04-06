@@ -1,0 +1,80 @@
+/* JobExperiences.css */
+.job-experiences {
+ font-family: 'Arial', sans-serif;
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.job-experiences h2 {
+ color: #333;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.timeline {
+ position: relative;
+ margin: 0 auto;
+ padding: 20px 0;
+}
+
+.timeline::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ width: 4px;
+ background-color: #6c757d;
+ left: 50%;
+ margin-left: -2px;
+}
+
+.timeline-item {
+ position: relative;
+ margin-bottom: 30px;
+}
+
+.timeline-dot {
+ position: absolute;
+ width: 16px;
+ height: 16px;
+ border-radius: 50%;
+ background-color: #6c757d;
+ top: 15px;
+}
+
+.left.timeline-dot {
+ left: 49%;
+ margin-left: -8px;
+}
+
+.right.timeline-dot {
+ left: 51%;
+}
+
+.job-experience {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+ width: calc(50% - 40px);
+}
+
+.left.job-experience {
+ float: left;
+ margin-left: 10px;
+}
+
+.right.job-experience {
+ float: right;
+ margin-right: 10px;
+}
+
+.job-experience h3 {
+ margin-top: 0;
+}
+
+.clearfix::after {
+ content: "";
+ display: table;
+ clear: both;
+}

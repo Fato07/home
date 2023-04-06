@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/home/Portfolio";
 import 'semantic-ui-css/semantic.min.css'
 import Skills from './components/home/Skills';
+import LinkedInCallback from './components/LinkedInCallback';
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     {configuration.showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
+    <Route path="/linkedin-callback" component={LinkedInCallback} />
     <Footer />
   </BrowserRouter>
 );
