@@ -10,7 +10,7 @@ const Portfolio = () => {
   const array2 = ["CSS: 53.2%", "JavaScript: 42.8", "%HTML: 3.8 %"]
 
   return (
-    <div id="portfolio" className="jumbotron-fluid bg-transparent m-0">
+    <div id="portfolio" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
         <h1 className="display-4 pb-5">{configuration.portfolioHeading}</h1>
         <Card.Group>

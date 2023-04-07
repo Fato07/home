@@ -44,6 +44,7 @@
         }
     ],
     "mediumBlogs": "https://medium.com/@fathindos.fd",
+    
     "frontEndTools": [
         {
             "id": 0,
@@ -91,6 +92,74 @@
             "id": 4,
             "name": "NodeJs",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/80-803529_vector-javascript-node-js-jpg-black-and-white_1_daordaGFZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459477"
+        }
+    ],
+    "jobExperinces": [
+        {
+            "id":0,
+            "name": "Monese · Full-time",
+            "companyIcon": "monese.png",
+            "location":"Tallinn, Estonia",
+            "jobTitle": "Frontend Software Engineer",
+            "date":"Oct 2022 - Present",
+            "duration": "7 mos",
+            "description": "",
+            "skills":""
+        },
+        {
+            "id":1,
+            "name": "ZenOwn · Contract",
+            "companyIcon": "zenown.png",
+            "location":"Remote",
+            "jobTitle": "Frontend Developerr",
+            "date":"Feb 2023 - Mar 2023",
+            "duration": "2 mos",
+            "description": "",
+            "skills":""
+        },
+        {
+            "id":2,
+            "name": "Exove · Full-time",
+            "companyIcon": "exove.png",
+            "location":"Tallinn, Estonia",
+            "jobTitle": "Developer",
+            "date":"Sep 2021 - Oct 2022",
+            "duration": "1 yr 2 mos",
+            "description": "",
+            "skills":""
+        },
+        {
+            "id":3,
+            "name": "Kuehne+Nagel · Internship",
+            "companyIcon": "kuheneNagel.png",
+            "location":"Tallinn, Estonia",
+            "jobTitle": "Frontend Developer",
+            "date":"Jul 2021 - Aug 2021",
+            "duration": "2 mos",
+            "description": "",
+            "skills":""
+        },
+        {
+            "id":4,
+            "name": "The Fundamental Secrets · Full-time",
+            "companyIcon": "fdmntlSecrets.png",
+            "location":"Remote",
+            "jobTitle": "Full-stack Developer",
+            "date":"Feb 2021 - May 2021",
+            "duration": "4 mos",
+            "description": "",
+            "skills":""
+        },
+        {
+            "id":5,
+            "name": "Ericsson · Internship",
+            "companyIcon": "ericsson.png",
+            "location":"Tallinn, Estonia",
+            "jobTitle": "Test Development Engineer Intern",
+            "date":"Jun 2020 - Aug 2020",
+            "duration": "3 mos",
+            "description": "",
+            "skills":""
         }
     ]
 }

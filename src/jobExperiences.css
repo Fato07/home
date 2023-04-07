@@ -1,4 +1,4 @@
-/* JobExperiences.css */
+/* JobExperiences.css
 .job-experiences {
  font-family: 'Arial', sans-serif;
  max-width: 800px;
@@ -77,4 +77,8 @@
  content: "";
  display: table;
  clear: both;
+} */
+
+.date-color{
+    color: black;
 }
