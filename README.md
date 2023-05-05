@@ -5,7 +5,7 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://fato07.github.io/home">Fato07.github.io</a>
+    <a href="https://fathin.vercel.app/">fathin.vercel.app</a>
   </p>
 </p>
 
