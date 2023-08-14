@@ -1,28 +1,41 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import Pdf from "../../editable-stuff/resume.pdf"
 import configuration from "../../editable-stuff/configurations.json"
+import "./aboutme.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const AboutMe = () => {
   const [resumeURL] = useState(Pdf)
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid p-5">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12" data-aos="fade-up">
             <h1 className="display-4 mb-5 text-center">
-              {" "}
-              {configuration.aboutHeading}{" "}
-            </h1>{" "}
+              {configuration.aboutHeading}
+            </h1>
             {configuration.aboutDescription
               .split("\n")
               .map((paragraph, key) => {
-                return <p className="lead text-center"> {paragraph} </p>
-              })}{" "}
+                return (
+                  <p key={key} className="lead text-center about-text">
+                    {" "}
+                    {paragraph}{" "}
+                  </p>
+                )
+              })}
             {resumeURL && (
-              <p className="lead text-center">
+              <div className="text-center">
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-dark btn-lg m-2 custom-btn"
                   href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
@@ -30,22 +43,20 @@ const AboutMe = () => {
                   aria-label="Resume/CV"
                 >
                   Resume
-                </a>{" "}
-                <span> {"    "} </span>
+                </a>
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-dark btn-lg m-2 custom-btn"
                   href={configuration.mediumBlogs}
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
-                  aria-label="Resume/CV"
+                  aria-label="Blogs"
                 >
-                  Blogs{" "}
-                </a>{" "}
-              </p>
+                  Blogs
+                </a>
+              </div>
             )}
           </div>
-          <div></div>
         </div>
       </div>
     </div>

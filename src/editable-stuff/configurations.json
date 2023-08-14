@@ -27,7 +27,7 @@
         }
     ],
     "aboutHeading": "About Me",
-    "aboutDescription": "I'm a Masters Student in Cyber Security, full-time software developer and coding is the source code of my life. I'm passionate about anything Programming, Ethical hacking and Technology as a whole. I consider myself a fullstack developer but i'm more frontend heavy. Sometimes, when I’m in the flow, I craft applications.\nI also play CTF’s and publish writeups about the interesting machines I have hacked on TryHackMe.com and HackTheBox. Usually about web and security related stuff",
+    "aboutDescription": "Developer (frontend heavy) with over 3yrs of experience in development across different industries (fintech, IT consulting, cryptocurrency), I learn through trial and error, i have been able to break lots of code and fix it through out my career, i also do have a close eye for website performance and making sure code is optimised that follow best practices to optimise the overall feel and performance of a website, i am able to translate business KPR's to the language developers speak, willing to innovate and be part of something bigger than myself. I also have experience across automation, unit testing and end to end testing to minimise bugs and promote faster development cycles. My methodology to development and coding is modern that follows a clean and structured architecture.\n The Tech stack I'm most comfortable with includes react js, next js, typescript, contentful, cypress, jest and alot more. I can also adapt to new tools easily. When I'm not actively coding, you would find me playing CTFs, hacking virtual machines or brute-forcing something on my local network as I am interested in security 😋. Or playing basketball 🏀. As much as I strive for perfection in my work, I also understand the balance of taking things light-heartedly, often injecting humor into the mix. My dedication to IT isn't just a job – it's a lifestyle.\n I love to work as part of a team as my insinuation is that, \"you know something I don't know and I know something you don't know\".",
     "projectHeading": "Recent Projects",
     "gitHubLink": "https://api.github.com/users/",
     "gitHubUsername": "Fato07",
@@ -44,7 +44,6 @@
         }
     ],
     "mediumBlogs": "https://medium.com/@fathindos.fd",
-    
     "frontEndTools": [
         {
             "id": 0,
@@ -96,70 +95,70 @@
     ],
     "jobExperinces": [
         {
-            "id":0,
+            "id": 0,
             "name": "Monese · Full-time",
             "companyIcon": "monese.png",
-            "location":"Tallinn, Estonia",
+            "location": "Tallinn, Estonia",
             "jobTitle": "Frontend Software Engineer",
-            "date":"Oct 2022 - Present",
+            "date": "Oct 2022 - Present",
             "duration": "7 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         },
         {
-            "id":1,
+            "id": 1,
             "name": "ZenOwn · Contract",
             "companyIcon": "zenown.png",
-            "location":"Remote",
+            "location": "Remote",
             "jobTitle": "Frontend Developerr",
-            "date":"Feb 2023 - Mar 2023",
+            "date": "Feb 2023 - Mar 2023",
             "duration": "2 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         },
         {
-            "id":2,
+            "id": 2,
             "name": "Exove · Full-time",
             "companyIcon": "exove.png",
-            "location":"Tallinn, Estonia",
+            "location": "Tallinn, Estonia",
             "jobTitle": "Developer",
-            "date":"Sep 2021 - Oct 2022",
+            "date": "Sep 2021 - Oct 2022",
             "duration": "1 yr 2 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         },
         {
-            "id":3,
+            "id": 3,
             "name": "Kuehne+Nagel · Internship",
             "companyIcon": "kuheneNagel.png",
-            "location":"Tallinn, Estonia",
+            "location": "Tallinn, Estonia",
             "jobTitle": "Frontend Developer",
-            "date":"Jul 2021 - Aug 2021",
+            "date": "Jul 2021 - Aug 2021",
             "duration": "2 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         },
         {
-            "id":4,
+            "id": 4,
             "name": "The Fundamental Secrets · Full-time",
             "companyIcon": "fdmntlSecrets.png",
-            "location":"Remote",
+            "location": "Remote",
             "jobTitle": "Full-stack Developer",
-            "date":"Feb 2021 - May 2021",
+            "date": "Feb 2021 - May 2021",
             "duration": "4 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         },
         {
-            "id":5,
+            "id": 5,
             "name": "Ericsson · Internship",
             "companyIcon": "ericsson.png",
-            "location":"Tallinn, Estonia",
+            "location": "Tallinn, Estonia",
             "jobTitle": "Test Development Engineer Intern",
-            "date":"Jun 2020 - Aug 2020",
+            "date": "Jun 2020 - Aug 2020",
             "duration": "3 mos",
             "description": "",
-            "skills":""
+            "skills": ""
         }
     ]
 }
