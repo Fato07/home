@@ -1,0 +1,19 @@
+.card-group {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.card-group .card {
+ flex: 0 0 48%;
+ /* or 49% if you want a little space between the cards */
+ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ /* Optional: for sleek design */
+ transition: transform 0.3s ease-in-out;
+ /* Optional: for smooth animation */
+}
+
+.card-group .card:hover {
+ transform: translateY(-10px);
+ /* Optional: for smooth animation */
+}

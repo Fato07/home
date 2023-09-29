@@ -24,7 +24,6 @@ const Home = () => {
       <Skills />
       <JobExperiences />
       <Project />
-      <Portfolio />
     </Fragment>
   );
 };
@@ -33,6 +32,7 @@ const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     {configuration.showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
+    <Route path="/portfolio" exact component={Portfolio} />
     <Footer />
     <Analytics />
   </BrowserRouter>

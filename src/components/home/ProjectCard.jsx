@@ -1,18 +1,18 @@
-import React, { useState, useEffect, useCallback } from "react";
-import axios from "axios";
+import React, { useState, useEffect, useCallback } from "react"
+import axios from "axios"
 
 const ProjectCard = ({ value }) => {
-  const [updated_at, setUpdatedAt] = useState("0 mints");
+  const [updated_at, setUpdatedAt] = useState("0 mints")
 
   const handleUpdatetime = useCallback(
     (e) => {
-      const date = new Date(value.pushed_at);
-      const nowdate = new Date();
-      const diff = nowdate.getTime() - date.getTime();
-      const hours = Math.trunc(diff / 1000 / 60 / 60);
+      const date = new Date(value.pushed_at)
+      const nowdate = new Date()
+      const diff = nowdate.getTime() - date.getTime()
+      const hours = Math.trunc(diff / 1000 / 60 / 60)
 
       if (hours < 24) {
-        return setUpdatedAt(`${hours.toString()} hours ago`);
+        return setUpdatedAt(`${hours.toString()} hours ago`)
       } else {
         const monthNames = [
           "January",
@@ -27,22 +27,22 @@ const ProjectCard = ({ value }) => {
           "October",
           "November",
           "December",
-        ];
-        const day = date.getDate();
-        const monthIndex = date.getMonth();
-        const year = date.getFullYear();
+        ]
+        const day = date.getDate()
+        const monthIndex = date.getMonth()
+        const year = date.getFullYear()
 
-        return setUpdatedAt(`on ${day} ${monthNames[monthIndex]} ${year}`);
+        return setUpdatedAt(`on ${day} ${monthNames[monthIndex]} ${year}`)
       }
     },
     [value.pushed_at]
-  );
+  )
 
   useEffect(() => {
-    handleUpdatetime();
-  }, [handleUpdatetime]);
+    handleUpdatetime()
+  }, [handleUpdatetime])
 
-  const { name, description, svn_url, stargazers_count, languages_url } = value;
+  const { name, description, svn_url, stargazers_count, languages_url } = value
   return (
     <div className="col-md-6">
       <div className="card shadow-lg p-3 mb-5 bg-white rounded">
@@ -75,44 +75,40 @@ const ProjectCard = ({ value }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const Language = ({ value }) => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   const handleRequest = useCallback(
     (e) => {
       axios
         .get(value)
         .then((response) => {
-          // handle success
-          // console.log(response.data);
-          return setData(response.data);
+          return setData(response.data)
         })
         .catch((error) => {
-          // handle error
-          return console.error(error.message);
+          return console.error(error.message)
         })
         .finally(() => {
           // always executed
-        });
+        })
     },
     [value]
-  );
+  )
 
   useEffect(() => {
-    handleRequest();
-  }, [handleRequest]);
+    handleRequest()
+  }, [handleRequest])
 
-  const array = [];
-  let total_count = 0;
+  const array = []
+  let total_count = 0
   for (let index in data) {
-    array.push(index);
-    total_count += data[index];
+    array.push(index)
+    total_count += data[index]
     // console.log(index, this.state.data[index]);
   }
-  // console.log("array contains ", array, this.state.data[array[0]]);
 
   return (
     <div className="pb-3">
@@ -123,7 +119,7 @@ const Language = ({ value }) => {
         </p>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard

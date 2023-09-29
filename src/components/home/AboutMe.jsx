@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Pdf from "../../editable-stuff/resume.pdf"
 import configuration from "../../editable-stuff/configurations.json"
-import "./aboutme.css"
 import AOS from "aos"
 import "aos/dist/aos.css"
 

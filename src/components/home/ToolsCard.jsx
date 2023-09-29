@@ -1,5 +1,5 @@
 import React from "react"
-import "../../tools.css"
+import "../../styles/tools.css"
 
 const ToolsCard = ({ props }) => {
   const { url, name } = props

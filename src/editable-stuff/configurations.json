@@ -46,49 +46,44 @@
     "mediumBlogs": "https://medium.com/@fathindos.fd",
     "frontEndTools": [
         {
-            "id": 0,
             "name": "React",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/React_logo_wordmark_1_nRJ9w8zXa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372465318"
         },
         {
-            "id": 1,
+            "name": "NextJs",
+            "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mJG8aNIXZvwWFCkO0R4bqQAAAA%26pid%3DApi&f=1&ipt=f8a7b4acc5cfad18a75a5698ce5cf2fbbf32b39078d28995617a2c8457e3067f&ipo=images"
+        },
+        {
             "name": "Bootstrap",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/bootstrap-logo-vector_1_lKmSevzjAA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459658"
         },
         {
-            "id": 2,
             "name": "Saas",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_14_eq49Y9zFid.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459714"
         },
         {
-            "id": 3,
             "name": "Redux",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_15_In1IfW-UO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459618"
         }
     ],
     "backEndTools": [
         {
-            "id": 0,
             "name": "Javascript",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_17_SAOqJJleX2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459657"
         },
         {
-            "id": 1,
             "name": "Python",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/Python-Logo_1_9AgXbW_eW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372465605"
         },
         {
-            "id": 2,
             "name": "C#",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/download_18_gBA79hVXtt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459699"
         },
         {
-            "id": 3,
             "name": "Express",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67_1_FHpbvJt8j.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459534"
         },
         {
-            "id": 4,
             "name": "NodeJs",
             "url": "https://ik.imagekit.io/geniusee/Web_Dev/80-803529_vector-javascript-node-js-jpg-black-and-white_1_daordaGFZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648372459477"
         }

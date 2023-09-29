@@ -1,11 +1,11 @@
 import React from "react"
-import "../../jobExperiences.css"
+import "../../styles/jobExperiences.css"
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
-import monese from "../../Images/monese.png"
+import monese from "../../Images/moneseLogo.png"
 import zenown from "../../Images/zenown.png"
 import exove from "../../Images/exove.png"
 import kuheneNagel from "../../Images/kuheneNagel.png"
@@ -119,7 +119,9 @@ const JobExperiences = () => {
       <div className="container container-fluid p-5">
         <div className="row">
           <div className="col-lg-12">
-            <h1 className="display-4 mb-5 text-center">Job Experiences</h1>
+            <h1 className="display-4 mb-5 text-center">
+              Companies I have worked with
+            </h1>
             <VerticalTimeline lineColor="black">
               {jobExperiencesWithIcons.map((experience) => (
                 <VerticalTimelineElement
@@ -132,7 +134,6 @@ const JobExperiences = () => {
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(33, 150, 243)",
                   }}
-                  date={`${experience.date} || ${experience.duration}`}
                   dateClassName="date-color"
                   iconStyle={{
                     background: "rgb(33, 150, 243)",
