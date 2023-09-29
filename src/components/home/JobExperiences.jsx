@@ -5,12 +5,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
-import monese from "../../Images/moneseLogo.png"
-import zenown from "../../Images/zenown.png"
-import exove from "../../Images/exove.png"
-import kuheneNagel from "../../Images/kuheneNagel.png"
-import fdmntlSecrets from "../../Images/fdmntlSecrets.png"
-import ericsson from "../../Images/ericsson.png"
+import monese from "../Images/moneseLogo.png"
+import zenown from "../Images/zenown.png"
+import exove from "../Images/exove.png"
+import kuheneNagel from "../Images/kuheneNagel.png"
+import fdmntlSecrets from "../Images/fdmntlSecrets.png"
+import ericsson from "../Images/ericsson.png"
 
 const JobExperiences = () => {
   const jobExperiencesData = [

@@ -1,10 +1,10 @@
 import React from "react"
 import configuration from "../../editable-stuff/configurations.json"
-import Fscrets from "../../Images/Fsecrets.png"
-import WhatsApp from "../../Images/WhatsApp.png"
+import Fscrets from "../Images/Fsecrets.png"
+import WhatsApp from "../Images/WhatsApp.png"
 import PortfolioCard from "../PortfolioCard"
 import { Card } from "semantic-ui-react"
-import Monese from "../../Images/Monese.png"
+import Monese from "../Images/Monese.png"
 import "../../styles/portfolio.css"
 
 const Portfolio = () => {
