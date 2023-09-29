@@ -3,7 +3,7 @@ import Pdf from "../../editable-stuff/resume.pdf"
 import configuration from "../../editable-stuff/configurations.json"
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+import "../../styles/aboutme.css"
 const AboutMe = () => {
   const [resumeURL] = useState(Pdf)
 
